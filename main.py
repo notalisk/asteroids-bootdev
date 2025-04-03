@@ -61,8 +61,6 @@ def main():
             if start_button.is_clicked():
                 GAME = True
                 MENU = False
-                start_button.kill()
-                exit_button.kill()
             if exit_button.is_clicked():
                 sys.exit()
             
